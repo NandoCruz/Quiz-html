@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz HTML</title>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+            <nav class="navbar">
+                <a href="#" class="active">Inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Perguntas do Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Tutorial do Quiz</span>
+                        <span class="header-score">Pontos: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">O que significa HTML?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>A. Hiper Tipo Multilínguas</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hipertexto em vários idiomas</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Linguagem de marcação de hipertexto</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Texto inicial em vários idiomas</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 de 5 Questões</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Resultado Quiz!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Seus pontos 0 de 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Tentar Novamente</button>
+                        <button class="goHome-btn">Ir para o Inicio</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p>Reforce seus conchecimentos realizando um quiz bem legal, onde você irá testar os seus conhecimentos sobre os assuntos mais diversos da área da programação. Bons estudos!</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="popup-info">
+        <h2>Guia do Quiz</h2>
+        <span class="info">1. HTML, CSS e JavaScript.</span>
+        <span class="info">2. Linguagem Python.</span>
+        <span class="info">3. MySQL.</span>
+        <span class="info">4. Segurança da Informação.</span>
+        <span class="info">5. Programação Orientada a Objetos.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+</body>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</html>
